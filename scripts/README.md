@@ -5,7 +5,7 @@
 
 Copy the script to /usr/bin and make it executable, like this
 
-    chmod u+x /usr/bin/overwrite-toon-configs.sh
+    /bin/chmod gu+x /usr/bin/overwrite-toon-configs.sh
 
 And add this line in the ***/etc/inittab***
 (below the /sbin/getty line, if you have one)
