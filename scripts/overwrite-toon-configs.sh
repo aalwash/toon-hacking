@@ -5,6 +5,8 @@
 
 #!/bin/sh
 
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:
+
 SSH_COMMENTED=`egrep "#-A .* --dport 22 .*" /etc/default/iptables.conf`
 
 if [ "$SSH_COMMENTED" ]
