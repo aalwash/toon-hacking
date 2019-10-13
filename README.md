@@ -2,6 +2,8 @@
 
 Welcome to this Toon-Hacking repository.
 
+
+
 This repository contain some scripts to hack or keep your Toon hacked/accessible after a upgrade.
 
 ## Script overwrite-toon-configs.sh
@@ -10,8 +12,8 @@ Copy the script to /usr/bin and make it executable, like this
 
     chmod u+x /usr/bin/overwrite-toon-configs.sh
 
-And add this line in the ***/etc/inittab***
-(below the /sbin/getty line, if you have one)
+And add this line in  the ***/etc/inittab***
+(below  the /sbin/getty line, if you have one)
 
     # HCBv2 static stuff
     # ...... some other lines
